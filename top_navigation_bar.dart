@@ -48,7 +48,7 @@ class TopNavigationBar extends StatelessWidget{
                   width:400.0,
                   height:300.0,),
                 Text("Hi, I'm Pizza Assistant, what can I help you order?",
-                  style: TextStyle(fontSize:30.0),
+                  style: TextStyle(decoration:TextDecoration.none,fontSize:30.0),
                   textAlign: TextAlign.center,
                 ),
               ]
@@ -60,7 +60,7 @@ class TopNavigationBar extends StatelessWidget{
                   width:400.0,
                   height:300.0,),
                 Text("Hi, I'm Pizza Assistant, what can I help you order?",
-                  style: TextStyle(fontSize:30.0),
+                  style: TextStyle(decoration:TextDecoration.none,fontSize:30.0),
                   textAlign: TextAlign.center,
                 ),
               ]
@@ -72,7 +72,7 @@ class TopNavigationBar extends StatelessWidget{
                   width:400.0,
                   height:300.0,),
                 Text("Hi, I'm Pizza Assistant, what can I help you order?",
-                  style: TextStyle(fontSize:30.0),
+                  style: TextStyle(decoration:TextDecoration.none,fontSize:30.0),
                   textAlign: TextAlign.center,
                 ),
               ]
