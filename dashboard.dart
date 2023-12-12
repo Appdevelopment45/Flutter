@@ -7,15 +7,17 @@ class Dashboard extends StatelessWidget {
   Widget build(BuildContext context) {
     // Material App
     return MaterialApp(
-
-      // Scaffold Widget
-        home: Scaffold(
-          appBar: AppBar(
-            // AppBar takes a Text Widget
-            // in it's title parameter
-            title: const Text('dashboard'),
-          ),
-          body: const Center(child: Text('Welcome To CMR Institute of Technology')),
+        home:Scaffold(
+            appBar: AppBar(
+              title: Text("CMR INSTITUTE OF TECHNOLOGY"),
+              centerTitle: true,
+              backgroundColor: Colors.deepOrange,
+            ),
+            body: Center(
+              child: Image(
+                image: NetworkImage('https://i0.wp.com/cmrithyderabad.edu.in/wp-content/uploads/2021/09/cropped-CMR-IT-logo-1.webp?w=731&ssl=1'),
+              ),
+            )
         ));
   }
 }
